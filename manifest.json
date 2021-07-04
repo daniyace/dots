@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Dots and boxes",
+  "name": "React dots and boxes",
   "icons": [
     {
       "src": "favicon.ico",
