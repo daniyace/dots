@@ -1,0 +1,113 @@
+.grid {
+  margin-top: 5%;
+  position: relative;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: max-content;
+  max-width: 100%;
+}
+.grid div {
+  height: 50px;
+}
+.cont {
+  width: 50px;
+  background-color: rgb(226, 226, 226);
+  position: relative;
+  cursor: default;
+}
+.cont p {
+  margin-top: 10px;
+}
+
+/* .cont {
+  width: 45px;
+  height: 45px;
+  background-color: rgb(139, 128, 128);
+  position: relative;
+}
+ */
+.d1,
+.d3 {
+  position: absolute;
+  width: 58px !important;
+  height: 8px !important;
+}
+.d2,
+.d4 {
+  position: absolute;
+  width: 8px !important;
+  height: 58px !important;
+}
+.d1 {
+  top: -4px;
+  left: -4px;
+}
+.d2 {
+  top: -4px;
+  right: -4px;
+}
+.d3 {
+  bottom: -4px;
+  right: -4px;
+}
+.d4 {
+  bottom: -4px;
+  left: -4px;
+}
+.d1::after,
+.d2::after {
+  content: ' ';
+  width: 8px;
+  height: 8px;
+  top: 0;
+  left: 0;
+  position: absolute;
+  background-color: #000;
+  z-index: 99;
+}
+.d3::after,
+.d4::after {
+  content: ' ';
+  width: 8px;
+  height: 8px;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  background-color: #000;
+  z-index: 99;
+}
+.ho1:hover {
+  background-color: rgba(139, 58, 58, 0.5);
+}
+.ho2:hover {
+  background-color: rgba(77, 139, 58, 0.5);
+}
+.p1 {
+  background-color: rgb(218, 37, 37);
+}
+.p2 {
+  background-color: rgb(97, 179, 72);
+}
+.turn {
+  display: block;
+  font-family: 'Montserrat';
+  margin-bottom: 0;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  width: max-content;
+}
+
+.j1 {
+  color: rgb(168, 18, 18);
+}
+.j2 {
+  color: rgb(34, 105, 81);
+}
+.R {
+  background-color: rgb(168, 18, 18);
+}
+.G {
+  background-color: rgb(34, 105, 81);
+}

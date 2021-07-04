@@ -1,0 +1,41 @@
+header {
+  font-family: 'Montserrat';
+  margin: 50px;
+  margin-top: 20%;
+}
+
+.par {
+  font-family: 'Montserrat';
+  margin: 0;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: max-content;
+  max-width: 100%;
+}
+.btn {
+  font-family: 'Montserrat';
+  font-size: 2em !important;
+  margin: 20px;
+  max-width: 50%;
+  width: 5em;
+}
+
+@media (max-width: 991px) {
+  header {
+    font-family: 'Montserrat';
+    margin: 50px;
+    margin-top: 35%;
+  }
+}
+
+@media (max-width: 450px) {
+  .btn {
+    display: block !important;
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 4em;
+  }
+}
