@@ -111,3 +111,54 @@
 .G {
   background-color: rgb(34, 105, 81);
 }
+
+@media (max-width: 550px) {
+  .grid {
+    margin-top: 25%;
+    min-width: max-content;
+  }
+  .grid div {
+    height: 38px;
+  }
+  .cont {
+    width: 38px;
+  }
+  .d1,
+  .d3 {
+    width: 43px !important;
+    height: 5px !important;
+  }
+  .d2,
+  .d4 {
+    width: 5px !important;
+    height: 43px !important;
+  }
+
+  .d1 {
+    top: -2.5px;
+    left: -2.5px;
+  }
+  .d2 {
+    top: -2.5px;
+    right: -2.5px;
+  }
+  .d3 {
+    bottom: -2.5px;
+    right: -2.5px;
+  }
+  .d4 {
+    bottom: -2.5px;
+    left: -2.5px;
+  }
+  .d1::after,
+  .d2::after {
+    width: 5px;
+    height: 5px;
+  }
+  .d3::after,
+  .d4::after {
+    content: ' ';
+    width: 5px;
+    height: 5px;
+  }
+}

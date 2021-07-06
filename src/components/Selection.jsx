@@ -5,7 +5,7 @@ const Selection = (props) => {
   return (
     <div className='selection container'>
       <header>
-        <h1 className='text-center'>tic-tac-toe on React</h1>
+        <h1 className='text-center'>Dots and boxes on React</h1>
       </header>
       <section>
         <h3 className='text-center par'>Choose the number of players</h3>
